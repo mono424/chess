@@ -418,6 +418,7 @@ func (g *Game) Clone() *Game {
 		tagPairs:  g.TagPairs(),
 		notation:  g.notation,
 		moves:     g.Moves(),
+		comments:  g.Comments(),
 		positions: g.Positions(),
 		pos:       g.pos,
 		outcome:   g.outcome,
